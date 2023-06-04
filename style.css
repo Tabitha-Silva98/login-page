@@ -1,0 +1,63 @@
+body{
+    background-image: url(img/degrade.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.Container{
+    text-align: center;
+}
+
+h1{
+  position: fixed;
+  top: 0;
+  color: white;
+  font-size: 60px;
+  
+  
+}
+
+input{
+    margin-bottom: 10px;
+    display: block;
+    border-radius: 20px;
+    width: 300px;
+    height: 30px;
+    transition: .4s;
+
+
+}
+
+img{
+    width: 100px;
+    border-radius: 100px;
+    position: relative;
+    left: 0;
+    z-index: 1;
+    padding: 20px;
+    opacity: 0.7;
+
+}
+
+button{
+    width: 200px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    
+}
+
+.hover-button{
+    background-color: #ffffff;
+    color: black;
+}
+
+.hover-button:hover{
+    background-color: pink;
+}
+
